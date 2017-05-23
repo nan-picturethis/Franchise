@@ -18,6 +18,9 @@
 		<!-- Custom CSS -->
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -88,7 +91,7 @@
 				Patrick Cwiklinski
 				Communications Specialist
 				Picture This Today 3D Inc.
-				patrick@picturethistoday.ca
+				<small>patrick@picturethistoday.ca</small>
 				<br><br>
 			</p>
 		</div>

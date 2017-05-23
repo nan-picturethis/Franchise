@@ -18,6 +18,9 @@
 		<!-- Custom CSS -->
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>		
+		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -192,32 +195,30 @@
 		</section>
 		
 		<!-- About Section -->
-		<section id="samples" class="samples-section">
-			<div class="container nopadding" style="width: 100%">
-				<div class="row nopadding">
-					<div class="col-lg-12 nopadding">
-						<div class="col-lg-4 nopadding hidden-xs">
-							<img src="images/marea.jpg" class="img-responsive" height="400px" width="100%">
-						</div>
-						<div class="col-lg-4 nopadding hidden-xs">
-							<img src="images/cabinets.jpg" class="img-responsive" height="400px" width="100%">
-						</div>
-						<div class="col-lg-4 nopadding hidden-xs">
-							<img src="images/vinilo.jpg" class="img-responsive" height="400px" width="100%">
-						</div>
-						<div class="col-lg-4 nopadding visible-xs">
-							<img src="images/marea.jpg" class="img-responsive" height="280px" width="100%">
-						</div>
-						<div class="col-lg-4 nopadding visible-xs">
-							<img src="images/cabinets.jpg" class="img-responsive" height="280px" width="100%">
-						</div>
-						<div class="col-lg-4 nopadding visible-xs">
-							<img src="images/vinilo.jpg" class="img-responsive" height="280px" width="100%">
-						</div>
+		<div class="container nopadding" style="width: 100%">
+			<div class="row nopadding">
+				<div class="col-lg-12 nopadding">
+					<div class="col-lg-4 nopadding hidden-xs">
+						<img src="images/marea.jpg" class="img-responsive" height="400px" width="100%">
+					</div>
+					<div class="col-lg-4 nopadding hidden-xs">
+						<img src="images/cabinets.jpg" class="img-responsive" height="400px" width="100%">
+					</div>
+					<div class="col-lg-4 nopadding hidden-xs">
+						<img src="images/vinilo.jpg" class="img-responsive" height="400px" width="100%">
+					</div>
+					<div class="col-lg-4 nopadding visible-xs">
+						<img src="images/marea.jpg" class="img-responsive" height="280px" width="100%">
+					</div>
+					<div class="col-lg-4 nopadding visible-xs">
+						<img src="images/cabinets.jpg" class="img-responsive" height="280px" width="100%">
+					</div>
+					<div class="col-lg-4 nopadding visible-xs">
+						<img src="images/vinilo.jpg" class="img-responsive" height="280px" width="100%">
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 		
 		<!-- oportunity Section -->
 		<section id="oportunity" class="oportunity-section" style="padding-top: 0;">

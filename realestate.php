@@ -184,8 +184,10 @@
 		
 		<section>
 			<div class="container-fluid nopadding">
+				<div class="row nopadding" style="height:50px;">
+				</div>
 				<div class="row nopadding">
-					<div class="col-md-6" style="text-align:center;padding:100px 0;">
+					<div class="col-md-6" style="text-align:center;padding:120px 0 0 0;">
 						<!-- begin panel group -->
 						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							<!-- panel 1 -->
@@ -274,6 +276,8 @@
 						</div> <!-- end macbook pro mockup -->
 					</div>
 				</div> <!--/ .row -->
+				<div class="row nopadding" style="height:40px;">
+				</div>
 			</div> <!-- end sidetab container -->
 		</section>
 		
