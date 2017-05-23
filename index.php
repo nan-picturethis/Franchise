@@ -41,8 +41,8 @@
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
 		<?php include("header_home.php"); ?>
 		<section>
-			<div class="container nopadding" style="width: 100%;">
-				<img src="images/home_banner.png" class="img-responsive">
+			<div class="container nopadding" style="width:100%;">
+				<img src="images/home_banner.jpg" class="img-responsive">
 			</div>
 		</section>
 		
@@ -121,61 +121,55 @@
 					}
 			}
 		</style>
-
+		
 		<!-- Intro Section -->
 		<section id="about" class="about-section" >
 			<div class="container nopadding" style="width: 100%;">
 				<div class="row nopadding" >
 					<div class="col-lg-12 nopadding" >
-						<p class="ptt_about" style="background: none;color: #000;margin-bottom:35px;">JOHANNESBURG NATIVE BRINGS CUTTING EDGE TECHNOLOGY HOME</p>
+						<p class="ptt_about" style="background:none;color:#000;margin:30px auto;padding:0;">JOHANNESBURG NATIVE BRINGS CUTTING EDGE TECHNOLOGY HOME</p>
 					</div>
 				</div>
 			</div>
+			<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/t2fJ_shBEfQ?version=3?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=t2fJ_shBEfQ?version=3" frameborder="0" style="width:100%;height:45vh;margin:0;" allowfullscreen></iframe>
+			<div class="container nopadding" style="width: 100%;">
+				<div class="row nopadding" >
+					<div class="col-lg-12 nopadding" >
+					<p class="ptt_about nopadding" style="background:none;color:#000;"><a href="http://re3d.ca/view/sandbox" target="_blank"><img id="myImg" class="img-responsive" src="images/tryit.png" style="margin:30px auto 25px;"></a></p>
+					</div>
+				</div>
+			</div>		
 		</section>
-
+		
 		<style type="text/css">
-			iframe {
+			.twitterbird {
+				width: 100%;
+				height:80px;
 				display:block;
+				background: url('images/learnmore_white.png') center top no-repeat;
+			}
+
+			.twitterbird:hover {
+				background-image: url('images/learnmore_orange.png');
+			}
+			
+			.ptt_sec3 {
+				width: 85%;
+				margin: 30px auto;
 			}
 		</style>
 		
-		<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/t2fJ_shBEfQ?version=3?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=t2fJ_shBEfQ?version=3" frameborder="0" style="width:100%;" allowfullscreen></iframe>
-		
-		<!-- Intro Section -->
-		<section id="about" class="about-section" >
-			<div class="container nopadding" style="width: 100%;">
-				<div class="row nopadding" >
-					<div class="col-lg-12 nopadding" >
-					<p class="ptt_about" style="background: none;color: #000;"><a href="http://re3d.ca/view/sandbox" target="_blank"><img id="myImg" src="images/tryit.png" style="padding-top: 25px;padding-bottom: 30px;"></a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<style type="text/css">
-		.twitterbird {
-			width: 100%;
-			height:80px;
-			display:block;
-			background: url('images/learnmorewht.png') center top no-repeat;
-		}
-
-		.twitterbird:hover {
-			background-image: url('images/learnmoreorange.png');
-		}
-		</style>
-		
-		<section class="block3">
+		<section class="block3 nopadding">
 			<div class="container" style="width: 100%;">
 				<div class="row" >
-					<div class="col-lg-12" >
+					<div class="col-lg-12 nopadding">
 						<section class="ptt_sec3 e23">
-							<h1 style="padding-top:20px;">FURNISHING VENDORS</h1>
+							<p style="padding-top:20px;">FURNISHING VENDORS</p>
 							<p>Place your product inside exact 3D replicas of your customers own living spaces.</p>
 							<p style="padding-top:20px;"><a href="furnishing.php" class="twitterbird" title="Twitter link"></a></p>
 						</section>
-						<section class="ptt_sec3 e23" style="margin-bottom:58px">
-							<h1 style="padding-top:20px;">REAL ESTATE PROFESSIONALS</h1>
+						<section class="ptt_sec3 e23">
+							<p style="padding-top:20px;">REAL ESTATE PROFESSIONALS</p>
 							<p>Clients engage with properties and make them their own, even before booking a showing.</p>
 							<p style="padding-top:20px;"><a href="realestate.php" class="twitterbird" title="Twitter link"></a></p>
 						</section>
@@ -196,7 +190,7 @@
 						<p class="ptt_oppor1" style="margin:0;">Developed in beautiful Victoria, British Columbia, by an international team of software <br>developers, designers and innovators, RE3D gives Picture This an unparalleled edge in quality and service. <br>Customers enjoy pure shopping experiences inside stunning and accurate replicas of actual homes and work spaces.<br></p>
 					</div>
 					<div class="col-lg-12" style="text-align:center;">
-						<a href="http://re3d.ca/view/sandbox" target="_blank"><img id="myImg" src="images/tryit.png" class="img-responsive" style="padding-top:25px;padding-bottom:30px;margin:0 auto;"></a>
+						<a href="http://re3d.ca/view/sandbox" target="_blank"><img id="myImg" class="img-responsive" src="images/tryit.png" style="margin:30px auto 25px;"></a>
 						<script>
 							// Get the modal
 							var modal = document.getElementById('myModal');
@@ -217,6 +211,203 @@
 				</div>
 			</div>
 		</section>
+		
+		<style type="text/css">
+			/* carousel */
+			#quote-carousel {
+				padding: 0 10px 30px 10px;
+				margin-top: 30px;
+			}
+
+			/* Control buttons  */
+			#quote-carousel .carousel-control {
+				background: none;
+				color: #222;
+				font-size: 2.3em;
+				text-shadow: none;
+				margin-top: 30px;
+			}
+			
+			/* Previous button  */
+			#quote-carousel .carousel-control.left {
+				left: -12px;
+			}
+			
+			/* Next button  */
+			#quote-carousel .carousel-control.right {
+				right: -12px !important;
+			}
+			
+			/* Changes the position of the indicators */
+			#quote-carousel .carousel-indicators {
+				right: 50%;
+				top: auto;
+				bottom: 0px;
+				margin-right: -19px;
+			}
+			
+			/* Changes the color of the indicators */
+			#quote-carousel .carousel-indicators li {
+				background: #c0c0c0;
+			}
+			
+			#quote-carousel .carousel-indicators .active {
+				background: #333333;
+			}
+			
+			#quote-carousel img {
+				width: 250px;
+				height: 100px;
+			}
+			/* End carousel */
+			
+			.item blockquote {
+				border-left: none; 
+				margin: 0;
+			}
+			
+			.item blockquote img {
+				margin-bottom: 10px;
+			}
+			
+			.item blockquote p:before {
+				content: "\f10d";
+				font-family: 'Fontawesome';
+				float: left;
+				margin-right: 10px;
+			}
+			
+			/**
+			MEDIA QUERIES
+			*/
+			/* Small devices (tablets, 768px and up) */
+			@media (min-width: 768px) { 
+				#quote-carousel 
+				{
+					margin-bottom: 0;
+					padding: 0 40px 30px 40px;
+				}
+			}
+
+			/* Small devices (tablets, up to 768px) */
+			@media (max-width: 768px) { 
+				/* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+				#quote-carousel .carousel-indicators {
+					bottom: -20px !important;  
+				}
+				#quote-carousel .carousel-indicators li {
+					display: inline-block;
+					margin: 0px 5px;
+					width: 15px;
+					height: 15px;
+				}
+				#quote-carousel .carousel-indicators li.active {
+					margin: 0px 5px;
+					width: 20px;
+					height: 20px;
+				}
+			}
+		</style>
+		
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+			//Set the carousel options
+			$('#quote-carousel').carousel({
+			pause: true,
+			interval: 4000,
+			});
+			});
+		</script>
+		
+		<div class="container" style="width:100%;background-color: #efeeee;">
+			<div class="row">
+				<div class='col-md-offset-2 col-md-8 text-center'>
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-offset-2 col-md-8'>
+					<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+						<!-- Bottom Carousel Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#quote-carousel" data-slide-to="1"></li>
+							<li data-target="#quote-carousel" data-slide-to="2"></li>
+							<li data-target="#quote-carousel" data-slide-to="3"></li>
+						</ol>
+						
+						<!-- Carousel Slides / Quotes -->
+						<div class="carousel-inner">
+							<!-- Quote 1 -->
+							<div class="item active">
+								<blockquote>
+									<div class="row" style="width: 80%;margin-left: 10%;margin-right: 10%;">
+										<div class="col-sm-3 text-center">
+											<img class="img-circle" src="images/richard.png" style="width: 100px;height:100px;">
+										</div>
+										<div class="col-sm-9">
+											<p class="ptt_testimonial">I was absolutely blown-away by both the product and the business concept.I just had to be part of it.</p>
+											<small>Richard Hillier, Franchise Owner, Toronto</small>
+										</div>
+									</div>
+								</blockquote>
+							</div>
+							
+							<!-- Quote 2 -->
+							<div class="item">
+								<blockquote>
+									<div class="row" style="width: 80%;margin-left: 10%;margin-right: 10%;">
+										<div class="col-sm-3 text-center">
+											<img class="img-circle" src="images/bryan.png" style="width: 100px;height:100px;">
+										</div>
+										<div class="col-sm-9">
+											<p class="ptt_testimonial">From my first contact with Ev by email, then by phone, and then meeting in person, I have been impressed. She has built a great group of enthusiastic people, where the concept that challenges can't be overcome doesn't exist.</p>
+											<small>Bryan Murray, Franchise Owner, Calgary</small>
+										</div>
+									</div>
+								</blockquote>
+							</div>
+							
+							<!-- Quote 3 -->
+							<div class="item">
+								<blockquote>
+									<div class="row" style="width: 80%;margin-left: 10%;margin-right: 10%;">
+										<div class="col-sm-3 text-center">
+											<img class="img-circle" src="images/luis.png" style="width: 100px;height:100px;">
+										</div>
+										<div class="col-sm-9">
+											<p class="ptt_testimonial"> I’m very excited about my current opportunity with Picture This…</p>
+											<small>Luis Ambrosio, Franchise Owner, London, ON</small>
+										</div>
+									</div>
+								</blockquote>
+							</div>
+							
+							<!-- Quote 4 -->
+							<div class="item">
+								<blockquote>
+									<div class="row" style="width: 80%;margin-left: 10%;margin-right: 10%;">
+										<div class="col-sm-3 text-center">
+											<img class="img-circle" src="images/nick.png" style="width: 100px;height:100px;">
+										</div>
+										<div class="col-sm-9">
+											<p class="ptt_testimonial">The details in these plans are stunning and the ability to transform properties is absolutely amazing. Home buyers will fall in love with this program.</p>
+											<small>Nick Scott, Franchise Owner, New Brunswick</small>
+										</div>
+									</div>
+								</blockquote>
+							</div>
+						</div>
+						
+						<!-- Carousel Buttons Next/Prev -->
+						<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+						<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+					</div>                          
+				</div>
+			</div>
+		</div>
 		
 		<?php include("map.php"); ?>
 		<?php include("footer.php"); ?>

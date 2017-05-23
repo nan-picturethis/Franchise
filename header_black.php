@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <style type="text/css">
 	.navbar {
 		position: relative;
@@ -109,7 +113,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse" style="width: 100%" >
 			<ul class="nav navbar-nav navbar-left">
-				<li style="margin-top: -10px;margin-bottom: -10px;"><a href="index.php"><img src="images/logoblack.png" height="70px"></a></li>
+				<li style="margin-top: -10px;margin-bottom: -10px;"><a href="index.php"><img src="images/logo_black.png" height="70px"></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right" style="padding-top: 15px;">
 				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
@@ -119,18 +123,18 @@
 				<li>
 					<a class="page-scroll ptt_nav" href="index.php" style="color: #000;">HOME</a>
 				</li>
-				<li >
-					<a class="page-scroll ptt_nav" href="#samples" style="color: #000;">CUSTOMERS</a>
+				<li class="dropdown">
+					<a class="dropdown-toggle page-scroll ptt_nav" data-toggle="dropdown" href="#samples" style="color:#000;">CUSTOMERS</a>
 					<ul class="dropdown-menu">  
-						<li><a href="realestate.php" style="color: #fff;">FURNISHING</a></li>                        
-						<li><a href="furnishing.php" style="color: #fff;">REAL ESTATE</a></li>
+						<li><a href="furnishing.php" style="color: #fff;">FURNISHING</a></li>                        
+						<li><a href="realestate.php" style="color: #fff;">REAL ESTATE</a></li>
 					</ul>
 				</li>
 				<li>
 					<a class="page-scroll ptt_nav" href="about.php" style="color: #000;">ABOUT US</a>
 				</li>
 				<li>
-					<a class="page-scroll ptt_nav" href="http://picturethistoday.ca/blog.php" style="color: #000;" target="_blank">BLOG</a>
+					<a class="page-scroll ptt_nav" href="blog.php" style="color: #000;">BLOG</a>
 				</li>
 				<li>
 					<a class="page-scroll ptt_nav" href="#contact" style="color: #000;">CONTACT US</a>
