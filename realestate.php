@@ -39,6 +39,7 @@
 			.e23:hover {
 				background: rgba(0,0,0,0.5);
 			}
+			
 			.e33:hover {
 				background: url('images/view_orange.png');
 			}
@@ -46,8 +47,15 @@
 			.e34:hover {
 				background: url('images/contact_us_orange.png');
 			}
+			
 			.e35:hover {
 				background: url('images/learn_more_orange.png');
+			}
+			
+			@media (max-width: 767px) {
+				.ptt_about22 {
+					padding: 60px 40px 0;
+				}
 			}
 		</style>
 	</head>
@@ -89,14 +97,6 @@
 		
 		<div class="container-fluid nopadding">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-					<li data-target="#myCarousel" data-slide-to="4"></li>					
-				</ol>
 				
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">

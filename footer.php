@@ -24,9 +24,9 @@
 				</div>
 				<div class="col-lg-3">
 					<h4>CONTACT US</h4>
-					<p class="ptt_foot1">Office: 778-432-4990</p>
+					<p class="ptt_foot1">Office: 416-254-3301</p>
 					<p class="ptt_foot1">Toll Free: 855-510-8386</p>
-					<p class="ptt_foot1">hello@picturethis.today</p>
+					<p class="ptt_foot1">richard@picturethistoday.ca</p>
 				</div>
 			</div>
 		</div>

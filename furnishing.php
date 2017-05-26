@@ -37,6 +37,14 @@
 			ga('create', 'UA-92563266-1', 'auto');
 			ga('send', 'pageview');
 		</script>
+		
+		<style>
+			@media (max-width: 767px) {
+				.ptt_about {
+					padding: 60px 40px 0;
+				}
+			}				
+		</style>
 	</head>
 	
 	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->

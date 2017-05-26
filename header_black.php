@@ -89,6 +89,25 @@
 		background-color: #000;
 		opacity: 0.8;
 		color: #fff;
+	}
+	
+    .dropdown-menu {
+		margin-left: calc(50% - 80px);
+		margin-right: calc(50% - 80px);
+	}
+	
+	.navbar-nav > li > .dropdown-menu {
+		margin-top: 0;
+		border-radius: 0;
+	}
+	
+	@media (max-width: 767px) {
+		.navbar-nav .open .dropdown-menu {
+			padding: 5px 0;
+		}
+		.navbar-default .navbar-nav .dropdown-menu > li > a {
+			padding: 5px 15px;
+		}
 	}	
 	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 		background-color: #000;
@@ -125,8 +144,8 @@
 				<li class="dropdown">
 					<a class="dropdown-toggle page-scroll ptt_nav" data-toggle="dropdown" href="#samples" style="color:#000;">CUSTOMERS</a>
 					<ul class="dropdown-menu">  
-						<li><a href="furnishing.php" style="color: #fff;">FURNISHING</a></li>                        
-						<li><a href="realestate.php" style="color: #fff;">REAL ESTATE</a></li>
+						<li style="text-align:center;"><a href="furnishing.php" style="color: #fff;">FURNISHING</a></li>                        
+						<li style="text-align:center;"><a href="realestate.php" style="color: #fff;">REAL ESTATE</a></li>
 					</ul>
 				</li>
 				<li>
