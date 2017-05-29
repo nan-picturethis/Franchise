@@ -1,0 +1,118 @@
+.something-bold{
+	font-weight: bold;
+}
+.ptt_viewer{
+	font-size: 5em;
+}
+
+.nopadding{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.ptt_about{
+	background-color: #3a3a3a;
+	color: #fff;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 30px;
+	padding-top: 60px;
+
+	margin-bottom: 0;
+}
+.ptt_about22{
+	background-color: #fff;
+	color: #3a3a3a;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 30px;
+	padding-top: 60px;
+
+	margin-bottom: 0;
+}
+.ptt_oppor1{
+	color: #3a3a3a;
+}
+.ptt_nav{
+	font-weight: 600;
+	color: 3a3a3a;
+}
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+}
+.navbar .navbar-collapse{
+	text-align: center;
+}
+.pttback{ 
+	background: url(images/background.png);
+	background-size: 100% auto;
+}
+.ptt_connect{
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px; 
+}
+.ptt_address{
+	color: #fff;
+	font-size: 16px; 
+	font-weight: bold;
+}
+tr.sub-menu1-item:before,  tr.sub-menu1-item:after{
+	color: #fff;
+}
+
+iframe{
+	width: 1000px;
+	height: 520.5px;
+	border: none;
+	overflow: hidden;
+	margin-bottom:20px;
+	margin-top:-18px;
+	
+}
+p
+{
+font-size:30px;
+}
+.ppt-tbl
+{
+padding-left:0px;
+padding-right:0px;
+width: 47.5%;
+
+}
+.ppt-tblm
+{
+padding-left:0px;
+padding-right:0px;
+width:5%;
+}
+.hrnew
+{
+width:100%; 
+height:0px; 
+background: #fff;
+}
+.ppt-col12
+{
+color:#fff;
+border-right:#fff solid 1px;
+border-left:#fff solid 1px;
+border-top:#fff solid 1px;
+border-bottom:#fff solid 1px;
+padding-left: 0px;
+padding-right: 0px;
+}
+.ptt_testimonial
+{
+	font-size: 18px;
+}
+.ptt_career
+{
+	font-size: 22px;
+}
+
+
+
+
+
