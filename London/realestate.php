@@ -167,9 +167,9 @@
 					<div class="col-lg-12">
 						<h1 style="font-weight: bold;color: #FFF;">PROCESS</h1> <br><br>
 						<img src="images/process_measure.png" style="margin:30px;">
-						<img src="images/3-DOTS.png" style="margin:30px;">
+						<img src="images/3-DOTS.png" style="margin:5px auto 30px;">
 						<img src="images/process_build.png" style="margin:30px;">
-						<img src="images/3-DOTS.png" style="margin:30px;">
+						<img src="images/3-DOTS.png" style="margin:5px auto 30px;">
 						<img src="images/process_share.png" style="margin:30px;">
 					</div>
 				</div>
