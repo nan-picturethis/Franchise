@@ -42,7 +42,7 @@
 		<?php include("header_home.php"); ?>
 		<section>
 			<div class="container nopadding" style="width:100%;">
-				<img src="images/home_banner.jpg" class="img-responsive">
+				<img src="images/home_banner.jpg" class="img-responsive" style="width:100%;">
 			</div>
 		</section>
 		
