@@ -151,7 +151,7 @@
 					<a class="page-scroll ptt_nav" href="blog.php" style="color: #000;">BLOG</a>
 				</li>
 				<li>
-					<a class="page-scroll ptt_nav" href="#contact" style="color: #000;">CONTACT US</a>
+					<a class="page-scroll ptt_nav" href="contact/contact.php" style="color: #000;" target="_blank">CONTACT US</a>
 				</li>
 			</ul>
 		</div>
