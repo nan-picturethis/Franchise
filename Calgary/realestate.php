@@ -9,8 +9,11 @@
 		<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 		<title>Picturethistoday Inc</title>
 		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+		
 		<!-- Bootstrap Core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/modal.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -57,6 +60,28 @@
 					padding: 60px 40px 0;
 				}
 			}
+			
+			/* override position and transform in 3.3.x */
+			.carousel-inner .item.left.active {
+				transform: translateX(-33%);
+			}
+			.carousel-inner .item.right.active {
+				transform: translateX(33%);
+			}
+
+			.carousel-inner .item.next {
+				transform: translateX(33%)
+			}
+			.carousel-inner .item.prev {
+				transform: translateX(-33%)
+			}
+
+			.carousel-inner .item.right,
+			.carousel-inner .item.left { 
+				transform: translateX(0);
+			}
+			
+			.carousel-control.left,.carousel-control.right {background-image:none;}
 		</style>
 	</head>
 	
@@ -97,27 +122,49 @@
 		
 		<div class="container-fluid nopadding">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="images/slides1.jpg" alt="" style="width:100%;">
+						<div class="col-md-4"><img src="images/slides1.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<img src="images/slides2.jpg" alt="" style="width:100%;">
+						<div class="col-md-4"><img src="images/slides2.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<img src="images/slides3.jpg" alt="" style="width:100%;">
+						<div class="col-md-4"><img src="images/slides3.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<img src="images/slides4.jpg" alt="" style="width:100%;">
+						<div class="col-md-4"><img src="images/slides4.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<img src="images/slides5.jpg" alt="" style="width:100%;">
+						<div class="col-md-4"><img src="images/slides5.jpg" alt="" style="width:100%;"></div>
 					</div>
 				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 			</div>
 		</div>
+		
+		<script>
+		$('#myCarousel').carousel({
+		interval: 10000
+		})
+
+		$('.carousel .item').each(function(){
+		var next = $(this).next();
+		if (!next.length) {
+		next = $(this).siblings(':first');
+		}
+		next.children(':first-child').clone().appendTo($(this));
+
+		if (next.next().length>0) {
+		next.next().children(':first-child').clone().appendTo($(this));
+		}
+		else {
+		$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+		}
+		});
+		</script>
 		
 		<section style="margin:40px auto 60px;">
 			<div class="container nopadding" style="width: 100%;text-align: center;">
