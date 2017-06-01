@@ -2,6 +2,7 @@
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
+Modified by Nan Yang
 -->
 <!DOCTYPE HTML>
 <html>
@@ -36,6 +37,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					background-attachment: fixed;
 					background-size: cover;
 			}
+			.contact-form {
+				color: white;
+				text-align: center;
+			}
 		</style>
 	</head>
 	<body>
@@ -44,39 +49,60 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="profile">
 				<div class="wrap">
 					<div class="contact-form">
+						
+<?php
+	//if "email" variable is filled out, send email
+	if (isset($_REQUEST['email'])) {
+		$admin_email = "bryan@picturethistoday.ca";
+		$email = $_REQUEST['email'];
+		$subject = $_REQUEST['subject'];
+		$message = $_REQUEST['message'];
+		
+		mail($admin_email, "$subject", $message, "From:" . $email);
+		
+		echo "Thank you for contacting us!";
+	}
+
+	//if "email" variable is not filled out, display the form
+	else  {
+	?>						
 						<form action="#" method="post">
 							<div class="w3l-contact-left">
 								<div class="styled-input agile-styled-input-top">
-									<input type="text" name="Name" required="">
+									<input type="text" name="name" required="">
 									<label>Name</label>
 									<span></span>
 								</div>
 								<div class="styled-input">
-									<input type="email" name="Email" required=""> 
+									<input type="email" name="email" required=""> 
 									<label>Email</label>
 									<span></span>
 								</div> 
 								<div class="styled-input">
-									<input type="text" name="Phone" required="">
+									<input type="text" name="phone" required="">
 									<label>Phone</label>
 									<span></span>
 								</div>
 								<div class="styled-input">
-									<input type="text" name="Subject" required="">
+									<input type="text" name="subject" required="">
 									<label>Subject</label>
 									<span></span>
 								</div>
 							</div>
 							<div class="w3l-contact-right">
 								<div class="styled-input agileits-input">
-									<textarea name="Message" required=""></textarea>
+									<textarea name="message" required=""></textarea>
 									<label>Message</label>
 									<span></span>
 								</div>	 
-								<input type="submit" value="SEND">
+								<input type="submit" value="Submit">
 							</div>
 							<div class="clear"> </div>
 						</form>
+<?php
+}
+?>
+						
 					</div>
 				</div>
 			</div>
@@ -84,5 +110,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<p>© COPYRIGHT 2013-2017 PICTURETHISTODAY 3D INC</p>
 			</div>
 		</div>
+		
 	</body>
 </html>
