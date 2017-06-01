@@ -125,19 +125,19 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<div class="col-md-4"><img src="images/slides1.jpg" alt="" style="width:100%;"></div>
+						<div class="col-md-4 nopadding"><img src="images/slides1.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<div class="col-md-4"><img src="images/slides2.jpg" alt="" style="width:100%;"></div>
+						<div class="col-md-4 nopadding"><img src="images/slides2.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<div class="col-md-4"><img src="images/slides3.jpg" alt="" style="width:100%;"></div>
+						<div class="col-md-4 nopadding"><img src="images/slides3.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<div class="col-md-4"><img src="images/slides4.jpg" alt="" style="width:100%;"></div>
+						<div class="col-md-4 nopadding"><img src="images/slides4.jpg" alt="" style="width:100%;"></div>
 					</div>
 					<div class="item">
-						<div class="col-md-4"><img src="images/slides5.jpg" alt="" style="width:100%;"></div>
+						<div class="col-md-4 nopadding"><img src="images/slides5.jpg" alt="" style="width:100%;"></div>
 					</div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
