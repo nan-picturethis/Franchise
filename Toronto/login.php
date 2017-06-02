@@ -47,10 +47,17 @@
 				-webkit-border-radius: 50%;
 				border-radius: 50%;
 			}
+			
+			body {
+				background: url(images/block3.png) no-repeat center center;
+				background-attachment: fixed;
+				background-size: cover;
+				border: 1px solid transparent;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="container" style="margin-top:100px">
+		<div class="container" style="margin-top:18vh;">
 			<div class="row">
 				<div class="col-sm-6 col-md-4 col-md-offset-4">
 					<div class="panel panel-default">
@@ -92,7 +99,7 @@
 												</div>
 											</div>
 											<div class="form-group">
-												<input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign In">
+												<input type="submit" class="btn btn-lg btn-primary btn-block" value="Log In">
 											</div>
 										</div>
 									</div>

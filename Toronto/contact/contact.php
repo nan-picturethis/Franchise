@@ -32,11 +32,13 @@ Modified by Nan Yang
 			.styled-input input ~ span, .styled-input textarea ~ span {
 				background: #F47A20;
 			}
+			
 			body {
-				    background: url(images/contact_bg.jpg) no-repeat center center;
-					background-attachment: fixed;
-					background-size: cover;
+				background: url(images/contact_bg.jpg) no-repeat center center;
+				background-attachment: fixed;
+				background-size: cover;
 			}
+			
 			.contact-form {
 				color: white;
 				text-align: center;
