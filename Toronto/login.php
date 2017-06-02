@@ -32,7 +32,7 @@
 			.panel-heading {
 				padding: 5px 15px;
 			}
-
+			
 			.panel-footer {
 				padding: 1px 15px;
 				color: #A0A0A0;
@@ -57,7 +57,8 @@
 		</style>
 	</head>
 	<body>
-		<div class="container" style="margin-top:18vh;">
+		<?php include("header_home.php"); ?>
+		<div class="container" style="margin-top:15vh;">
 			<div class="row">
 				<div class="col-sm-6 col-md-4 col-md-offset-4">
 					<div class="panel panel-default">

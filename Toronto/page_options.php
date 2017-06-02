@@ -35,17 +35,32 @@
 				background-size: cover;
 				border: 1px solid transparent;
 			}
+			
+			.btn {
+				margin: 5px auto;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="container" style="margin-top:18vh;">
-			<button type="button" class="btn btn-default btn-lg btn-block">Toronto</button>
-			<button type="button" class="btn btn-default btn-lg btn-block">Calgary</button>
-			<button type="button" class="btn btn-default btn-lg btn-block">London</button>
-			<button type="button" class="btn btn-default btn-lg btn-block">Moncton</button>
-			<button type="button" class="btn btn-default btn-lg btn-block">Istanbul</button>
-			<button type="button" class="btn btn-default btn-lg btn-block">Cebu</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">Wanna Join Us? Sign Up Here</button>
+		<?php include("header_home.php"); ?>
+		<div class="panel panel-default center-block" style="margin-top:15vh;width:90vw;">
+			<div class="panel-heading">
+				<strong>Picturethistoday Inc</strong> - Which page to modify?
+			</div>
+			<div class="panel-body">
+				<button type="button" class="btn btn-default btn-lg btn-block">Home</button>
+				<button type="button" class="btn btn-default btn-lg btn-block" data-toggle="collapse" data-target="#customers">Customers</button>
+				<div id="customers" class="collapse">
+					<button type="button" class="btn btn btn-lg btn-block">Furnishing</button>
+					<button type="button" class="btn btn btn-lg btn-block">Real Estate</button>
+				</div>
+				<button type="button" class="btn btn-default btn-lg btn-block">About Us</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">Contact Us</button>
+				<button type="button" class="btn btn-primary btn-lg btn-block">Add A Page</button>
+			</div>
+			<div class="panel-footer" style="text-align:center;">
+				Wanna Join Us? <a href="#" onClick="">Sign Up Here</a>
+			</div>
 		</div>
 	</body>
 </html>
