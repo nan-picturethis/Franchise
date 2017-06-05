@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>
 		
 		<!-- Bootstrap Core CSS -->
 		<link href="css/bootstrap.css" rel="stylesheet">
@@ -39,20 +40,45 @@
 			.btn {
 				margin: 5px auto;
 			}
+			
+			input[type="file"] {
+				display: inline-block;
+				width: 80%;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="panel panel-default center-block" style="margin-top:15vh;width:90vw;">
 			<div class="panel-heading">
-				<strong>Picturethistoday Inc</strong> - Which franchise to modify?
+				<strong>Picturethistoday Inc</strong> - Which sections to modify on BLOG page?
 			</div>
 			<div class="panel-body">
-				<button type="button" class="btn btn-default btn-lg btn-block">Toronto</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">Calgary</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">London</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">Moncton</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">Istanbul</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">Cebu</button>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Add A New Section</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<form action="">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Enter the title">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" placeholder="Enter the text" style="resize:vertical;"></textarea>
+									</div>
+									<div class="form-group">
+										<input type="file" class="form-control filestyle"  data-input="false"  data-buttonText="Upload an image">
+									</div>
+									<button type="reset" class="btn btn-default">Reset</button>
+									<button type="submit" class="btn btn-default">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="panel-footer" style="text-align:center;">
 				Wanna Join Us? <a href="#" onClick="">Sign Up Here</a>

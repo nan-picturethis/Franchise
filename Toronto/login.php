@@ -57,7 +57,6 @@
 		</style>
 	</head>
 	<body>
-		<?php include("header_home.php"); ?>
 		<div class="container" style="margin-top:15vh;">
 			<div class="row">
 				<div class="col-sm-6 col-md-4 col-md-offset-4">

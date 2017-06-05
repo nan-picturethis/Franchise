@@ -42,20 +42,20 @@
 		</style>
 	</head>
 	<body>
-		<?php include("header_home.php"); ?>
 		<div class="panel panel-default center-block" style="margin-top:15vh;width:90vw;">
 			<div class="panel-heading">
 				<strong>Picturethistoday Inc</strong> - Which page to modify?
 			</div>
 			<div class="panel-body">
-				<button type="button" class="btn btn-default btn-lg btn-block">Home</button>
-				<button type="button" class="btn btn-default btn-lg btn-block" data-toggle="collapse" data-target="#customers">Customers</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">HOME</button>
+				<button type="button" class="btn btn-default btn-lg btn-block" data-toggle="collapse" data-target="#customers">CUSTOMERS</button>
 				<div id="customers" class="collapse">
-					<button type="button" class="btn btn btn-lg btn-block">Furnishing</button>
-					<button type="button" class="btn btn btn-lg btn-block">Real Estate</button>
+					<button type="button" class="btn btn btn-lg btn-block">FURNISHING</button>
+					<button type="button" class="btn btn btn-lg btn-block">REAL ESTATE</button>
 				</div>
-				<button type="button" class="btn btn-default btn-lg btn-block">About Us</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">Contact Us</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">ABOUT US</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">CONTACT US</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">BLOG</button>
 				<button type="button" class="btn btn-primary btn-lg btn-block">Add A Page</button>
 			</div>
 			<div class="panel-footer" style="text-align:center;">
