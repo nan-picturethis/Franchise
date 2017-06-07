@@ -50,7 +50,7 @@
 	<body>
 		<div class="panel panel-default center-block" style="margin-top:15vh;width:90vw;">
 			<div class="panel-heading">
-				<strong>Picturethistoday Inc</strong> - Which sections to modify on ABOUT US page?
+				<strong>Picturethistoday Inc</strong> - Which sections to modify on REAL ESTATE page?
 			</div>
 			<div class="panel-body">
 				<div class="panel-group" id="accordion">
@@ -76,38 +76,13 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Profile</a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">White Background Passages</a>
 							</h4>
 						</div>
 						<div id="collapse2" class="panel-collapse collapse">
 							<div class="panel-body">
 								<form action="">
 									<div class="form-group">
-										<input type="file" class="form-control filestyle"  data-input="false"  data-buttonText="Upload new profile picture">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Enter new name">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Enter new title">
-									</div>
-									<button type="reset" class="btn btn-default">Reset</button>
-									<button type="submit" class="btn btn-default">Submit</button>
-								</form>
-							</div>
-						</div>
-					</div>
-					
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">White Background Passages</a>
-							</h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse">
-							<div class="panel-body">
-								<form action="">
-									<div class="form-group">
 										<textarea class="form-control" placeholder="Enter new text" style="resize:vertical;"></textarea>
 									</div>
 									<button type="reset" class="btn btn-default">Reset</button>
@@ -117,24 +92,6 @@
 						</div>
 					</div>
 					
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Grey Background Passages</a>
-							</h4>
-						</div>
-						<div id="collapse4" class="panel-collapse collapse">
-							<div class="panel-body">
-								<form action="">
-									<div class="form-group">
-										<textarea class="form-control" placeholder="Enter new text" style="resize:vertical;"></textarea>
-									</div>
-									<button type="reset" class="btn btn-default">Reset</button>
-									<button type="submit" class="btn btn-default">Submit</button>
-								</form>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 			<div class="panel-footer" style="text-align:center;">

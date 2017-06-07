@@ -40,6 +40,11 @@
 			.btn {
 				margin: 5px auto;
 			}
+			
+			input[type="file"] {
+				display: inline-block;
+				width: 80%;
+			}
 		</style>
 	</head>
 	<body>
